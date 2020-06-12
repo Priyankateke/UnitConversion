@@ -19,11 +19,9 @@ export default class Container extends Component {
                         <div className="unitBox">
                             <div className="numeric-box"></div>
                             <div className="selection">
-                                <select name="cars" id="cars">
-                                    <option value="volvo">Volvo</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="opel">Opel</option>
-                                    <option value="audi">Audi</option>
+                                <select name="length" id="length">
+                                    <option value="volvo">Kilometer</option>
+                                    <option value="saab">meter</option>
                                 </select>
                             </div>
                         </div>
