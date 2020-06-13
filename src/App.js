@@ -5,14 +5,21 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Convertor from './components/convertor';
+import History from './components/history'
+import Home from './components/convertor'
+
 //Parent Component 
 function App() {
 
-    return (
+  return (
     <Router>
-      <Route path="/" component={Convertor}></Route>
+      <Switch>
+        <Route path="/" component={Convertor}></Route>
+        <Route path="/home" component={Convertor}></Route>
+        <Route path="/history" component={History} />
+      </Switch>
     </Router>
-    );
+  );
 }
 
 export default App;

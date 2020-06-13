@@ -4,16 +4,3 @@
     padding-top: 10px;
     justify-content: space-between;
 }
-
-.imageBox {
-    width: 173px;
-    height: 137px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    transition: 0.3s;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 7px;
-    opacity: 1;
-}
