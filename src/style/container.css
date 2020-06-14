@@ -31,11 +31,12 @@
 .boxLabel {
     display: flex;
     justify-content: flex-start;
-    margin: 10px;
+    margin-top: 10px;
+    /* margin: 10px; */
 }
 
 .boxLabel > div {
-    margin-right: 50%; 
+    margin-right: 45%; 
     top: 397px;
     left: 392px;
     width: 38px;
