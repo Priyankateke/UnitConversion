@@ -13,11 +13,9 @@ function App() {
 
   return (
     <Router>
-      <Switch>
-        <Route path="/" component={Convertor}></Route>
-        <Route path="/home" component={Convertor}></Route>
+        <Route exact path="/" component={Convertor}></Route>
+        <Route exact path="/home" component={Convertor}></Route>
         <Route path="/history" component={History} />
-      </Switch>
     </Router>
   );
 }
